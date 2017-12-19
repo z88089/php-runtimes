@@ -11,7 +11,7 @@ Simple script Calculate the PHP runtime.
 
 
 Demo:
-```python
+```php
 $runtime = new PHPRuntimes();
 
 $runtime->mark('mark1');
