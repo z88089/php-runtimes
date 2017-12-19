@@ -10,7 +10,7 @@ class PHPRuntimes
 
 	function mark($mark=null)
 	{
-		return ['time'=>microtime(true), 'mark'=>$mark];
+		$this->marks[] = ['time'=>microtime(true), 'mark'=>$mark];
 	}
 
 	function display()
